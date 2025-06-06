@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Bikes">
+    <classes>
+      <class name="testNGBikes.HondaBikeTC"/>
+      <class name="testNGBikes.HarleyaDavidsonBikeTC"/>
+      <class name="testNGBikes.RoyalEnfieldBike"/>
+      <class name="testNGBikes.YamahaBikeTC"/>
+      <class name="testNGBikes.BajajBikeTC"/>
+    </classes>
+  </test> <!-- Bikes -->
+</suite> <!-- Suite -->
